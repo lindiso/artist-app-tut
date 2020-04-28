@@ -1,0 +1,11 @@
+{
+  "development": {
+    "showFeatureFlagPage": true
+  },
+  "staging": {
+    "showFeatureFlagPage": true
+  },
+  "production": {
+    "showFeatureFlagPage": false
+  }
+}

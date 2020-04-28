@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="icon" href="<%= htmlWebpackPlugin.options.fav %>" sizes="32x32"/>
+    <link rel="icon" href="<%= htmlWebpackPlugin.options.fav %>" sizes="192x192"/>
+    <link rel="apple-touch-icon-precomposed" href="<%= htmlWebpackPlugin.options.fav %>"/>
+    <meta name="msapplication-TileImage" content="<%= htmlWebpackPlugin.options.fav %>"/>
+    <meta name="theme-color" content="<%= htmlWebpackPlugin.options.themeColor %>">
+    <meta name="build-version" content="<%= htmlWebpackPlugin.options.BUILD_NUMBER %>">
+    <%= htmlWebpackPlugin.files.webpackManifest %>
+    <title>
+        <%= htmlWebpackPlugin.options.title %>
+    </title>
+
+    <link href="https://fonts.googleapis.com/css?family=Roboto:100,100i,300,300i,400,400i,500,500i,700,700i,900,900i&display=swap" rel="stylesheet">
+</head>
+
+<body>
+<div id="root">
+    <!-- You can add initialising visuals here if you want -->
+</div>
+
+<noscript>This Web Application requires Javascript to function...</noscript>
+</body>
+
+</html>
